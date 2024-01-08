@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/notification.css">
+</head>
+
+<body>
+	<nav class="navbar">
+		<h1 class="nav-brand">Educational platform</h1>
+	</nav>
+
+	<section>
+		<div class="container">
+			<form action="#" id="studentForm">
+				<label for="firstName">Your name</label>
+				<input class="input" type="text" id="firstName" required name="firstName">
+
+				<label for="surname">Your surname</label>
+				<input class="input" type="text" id="surname" required name="surname">
+
+				<label for="surname">Your address</label>
+				<input class="input" type="text" id="address" required name="address">
+
+				<label for="surname">Your age</label>
+				<input class="input" type="number" id="age" required name="age">
+
+				<button class="btn btn-outline">Submit</button>
+			</form>
+
+			<table class="table" id="studentTable">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Surname</th>
+						<th>Address</th>
+						<th>Age</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<!-- Вставка данных  -->
+				</tbody>
+			</table>
+		</div>
+	</section>
+
+
+
+	<script type="module" src="src/js/index.js"></script>
+</body>
+
+</html>
